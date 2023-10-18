@@ -62,7 +62,8 @@ gulp.task('sass', function() {
 gulp.task('images', function(){
     return gulp.src('./src/img/**/*')
         .pipe(changed('./dist/img/'))
-        .pipe(imagemin({verbose: true }))
+        .pipe(imagemin([imagemin.mozjpeg({quality: 90, progressive: true})]
+            ,{verbose: true }))
         .pipe(gulp.dest('./dist/img/'))
 })
 
