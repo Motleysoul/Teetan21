@@ -1,3 +1,50 @@
-.page-header{
-    color: turquoise;
+
+.header-wrapper{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.header__content{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 4px 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    color: #FFF;
+    background: linear-gradient(0deg, rgba(0, 0, 70, 0.75) 0%, rgba(0, 0, 70, 0.75) 100%);
+}
+.header__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav{
+    display: none;
+}
+
+.header__tel{
+    font-family: $font-accent;
+    font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0.8px;
+text-transform: uppercase;
 }
