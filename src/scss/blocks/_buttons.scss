@@ -1,0 +1,29 @@
+.basic-button{
+    width: 218px;
+    height: 52px;
+    border: none;
+    color: $white;
+    font-family: $font-accent;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: 1.3px;
+text-transform: uppercase;
+background: $basic-blue;
+}
+
+.second-button{
+    width: 218px;
+    height: 52px;
+    border: 1px solid $basic-blue;
+    color: $white;
+    font-family: $font-accent;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: 1.3px;
+text-transform: uppercase;
+background: inherit;
+}
