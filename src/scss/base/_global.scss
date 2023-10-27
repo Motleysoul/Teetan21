@@ -50,11 +50,15 @@ a {
     font-family: $font-accent;
     font-size: 13px;
     color: $basic-blue;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
   }
 
   .section-slogan{
     font-family: $font-title;
-    font-size: 27px;
+    font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: 130%;
@@ -65,4 +69,24 @@ line-height: 130%;
 font-style: normal;
 font-weight: 400;
 line-height: 170%;
+color: $brown-grey;
+  }
+
+  .find-out-link{
+    display: flex;
+    gap: 10px;
+    font-family: $font-accent;
+    font-size: 13px;
+font-style: normal;
+font-weight: 700;
+color: $basic-black;
+letter-spacing: 1.3px;
+text-transform: uppercase;
+  }
+
+  .find-out-link span{
+    display: block;
+  }
+  .find-out-link svg{
+    display: block;
   }

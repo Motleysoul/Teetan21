@@ -11,6 +11,7 @@
 
 .promo__desc{
     margin-bottom: 40px;
+    color: $white;
 }
 
 .promo__btn:first-of-type{
@@ -25,6 +26,7 @@
     font-size: 11px;
     letter-spacing: 3.08px;
     position: relative;
+    overflow: visible;
 }
 
 .promo__clue::after{
