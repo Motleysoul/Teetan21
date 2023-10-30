@@ -1,0 +1,46 @@
+.services{
+    position: relative;
+    padding: 126px 20px 45px;
+    background-color: $dark-blue;
+    color: $white;
+}
+
+.services__numb{
+  position: absolute;
+  top: -60px;
+    left: 20px;
+}
+
+.services__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.services__text{
+    color: $dark-grey;
+}
+
+.services__list{
+    list-style: none;
+}
+
+.services__item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 10px 45px;
+}
+
+.services__img{
+    width: 315px;
+}
+.service-item__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.services__link span{
+    color: $white;
+}
