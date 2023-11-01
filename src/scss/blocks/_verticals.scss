@@ -1,0 +1,21 @@
+.verticals{
+    position: relative;
+    padding: 137px 20px 100px;
+}
+
+.verticals__numb{
+    position: absolute;
+  top: -60px;
+    left: 20px;
+}
+
+.verticals__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.verticals__btn{
+    margin-bottom: 100px;
+}

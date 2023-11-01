@@ -1,0 +1,17 @@
+.clients{
+    padding: 100px 20px;
+}
+
+.clients__text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.clients__desc{
+    padding: 44px 26px;
+    background-color: $dark-grey;
+    border-left: 1px solid $basic-blue;
+    color: $brown-grey;
+}

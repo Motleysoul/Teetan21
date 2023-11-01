@@ -1,0 +1,14 @@
+.strategy{
+    display: flex;
+    flex-direction: column;
+    padding: 156px 20px;
+    color: $white;
+    background-color: $basic-blue;
+    background: url('../../img/strategy-back.jpg');
+    text-align: center;
+}
+
+.strategy__title{
+    color: $white;
+    margin-bottom: 30px;
+}

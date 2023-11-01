@@ -1,6 +1,5 @@
 .services{
     position: relative;
-    padding: 126px 20px 45px;
     background-color: $dark-blue;
     color: $white;
 }
@@ -14,6 +13,7 @@
 .services__wrapper{
     display: flex;
     flex-direction: column;
+    padding: 126px 20px 0;
     gap: 30px;
     margin-bottom: 100px;
     text-align: center;
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 30px 10px 45px;
+    padding: 30px 30px 45px;
 }
 
 .services__img{
