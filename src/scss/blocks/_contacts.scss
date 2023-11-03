@@ -1,0 +1,21 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contacts__tel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contacts__social{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 89px;
+}
+
+.contacts__rights{
+    line-height: 170%;
+}

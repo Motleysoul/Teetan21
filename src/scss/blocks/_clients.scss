@@ -1,5 +1,6 @@
 .clients{
-    padding: 100px 20px;
+    position: relative;
+    padding: 100px 20px 0;
 }
 
 .clients__text{
@@ -14,4 +15,10 @@
     background-color: $dark-grey;
     border-left: 1px solid $basic-blue;
     color: $brown-grey;
+}
+
+.clients__numb{
+    position: absolute;
+    top: -60px;
+      right: 20px;
 }

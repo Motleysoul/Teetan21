@@ -1,0 +1,14 @@
+.blog{
+    padding: 100px 20px;
+}
+.blog__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.blog__list{
+    list-style: none;
+    color: $brown-grey;
+}

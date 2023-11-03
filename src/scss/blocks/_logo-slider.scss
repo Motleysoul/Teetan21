@@ -1,8 +1,13 @@
 .logo-slider__list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .logo-slider__item{
     width: 160px;
     padding: 20px;
+}
+
+.logo-slider__item:hover {
+    background-color: $dark-grey;
 }

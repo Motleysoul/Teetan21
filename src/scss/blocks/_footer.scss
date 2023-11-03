@@ -1,4 +1,12 @@
 .footer{
-    flex-shrink: 0;
     background: #000046;
+    color: $white;
+}
+.footer__contacts{
+    padding: 60px 20px;
+}
+
+.footer__logo{
+    width: 102px;
+    margin-bottom: 38px;
 }
