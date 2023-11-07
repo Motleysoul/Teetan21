@@ -33,6 +33,11 @@
     padding: 30px 30px 45px;
 }
 
+.services__item:hover{
+    background-color: $white;
+    color: $dark-blue;
+}
+
 .services__img{
     width: 315px;
 }
@@ -43,4 +48,12 @@
 }
 .services__link span{
     color: $white;
+}
+
+.services__link:hover span{
+    color: $basic-blue;
+}
+
+.services__item:hover .services__link span{
+    color: $dark-blue;
 }

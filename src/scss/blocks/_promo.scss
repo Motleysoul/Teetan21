@@ -7,6 +7,14 @@
 
 .promo__slogan{
     margin-bottom: 30px;
+    font-size: 27px;
+}
+
+@media (min-width: $tablet-width){
+    .promo__slogan{
+        width: 728px;
+        font-size: 45px;
+    }
 }
 
 .promo__desc{

@@ -1,3 +1,24 @@
 .navigation__btn{
     width: 42px;
 }
+
+@media  (min-width: 1050px) {
+  .navigation__btn{
+    display: none;
+  }
+}
+
+.navigation{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navigation__item{
+    font-family: $font-accent;
+    font-size: 13px;
+font-weight: 700;
+line-height: 140%;
+letter-spacing: 1.3px;
+text-transform: uppercase;
+}

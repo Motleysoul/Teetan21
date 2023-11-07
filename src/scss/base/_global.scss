@@ -88,6 +88,17 @@ text-transform: uppercase;
   .find-out-link span{
     display: block;
   }
-  .find-out-link svg{
+  .find-out-link__svg{
+    stroke: $dark-blue;
     display: block;
+  }
+  .find-out-link:hover{
+    color: $basic-blue;
+  }
+  .find-out-link:hover svg{
+    stroke: $basic-blue;
+  }
+
+  .find-out-link__svg--white{
+    stroke: $white;
   }

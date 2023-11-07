@@ -4,6 +4,7 @@
     border: none;
     color: $white;
     font-family: $font-accent;
+    cursor: pointer;
     text-align: center;
     font-size: 13px;
     font-weight: 500;
@@ -13,11 +14,17 @@ text-transform: uppercase;
 background: $basic-blue;
 }
 
+.basic-button:hover{
+    background-color: #2f70a1;
+    border: #2f70a1;
+}
+
 .second-button{
     width: 218px;
     height: 52px;
     border: 1px solid $basic-blue;
     color: $white;
+    cursor: pointer;
     font-family: $font-accent;
     text-align: center;
     font-size: 13px;
@@ -28,10 +35,16 @@ text-transform: uppercase;
 background: inherit;
 }
 
+.second-button:hover{
+    background-color: #2f70a1;
+    border: #2f70a1;
+}
+
 .third-button{
     width: 218px;
     height: 52px;
     border: none;
+    cursor: pointer;
     font-family: $font-accent;
     text-align: center;
     font-size: 13px;
@@ -40,4 +53,8 @@ background: inherit;
     letter-spacing: 1.3px;
 text-transform: uppercase;
 background-color: $white;
+}
+
+.third-button:hover{
+     color: $basic-blue;
 }
