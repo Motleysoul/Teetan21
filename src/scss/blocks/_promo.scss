@@ -22,6 +22,27 @@
     color: $white;
 }
 
+@media (min-width: $tablet-width){
+    .promo__desc{
+        width: 552px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+}
+
+.promo__buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: $tablet-width){
+    .promo__buttons{
+        flex-direction: row;
+        gap: 28px;
+        margin-bottom: 102px;
+    }
+}
+
 .promo__btn:first-of-type{
     margin-bottom: 20px;
 }
@@ -31,6 +52,10 @@
 }
 
 .promo__clue{
+    margin-top: auto;
+    margin-bottom: 92px;
+    height: 13px;
+    justify-self: flex-end;
     font-size: 11px;
     letter-spacing: 3.08px;
     position: relative;
@@ -45,4 +70,10 @@
     height: 100px;
     background-color: $basic-blue;
     content: "";
+}
+
+@media (min-width: $tablet-width){
+    .promo__clue::after{
+        height: 150px;
+    }
 }

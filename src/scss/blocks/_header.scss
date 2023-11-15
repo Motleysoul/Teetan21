@@ -47,6 +47,12 @@
     align-items: center;
 }
 
+@media (min-width: $tablet-width){
+    .header__head{
+        margin-bottom: 102px;
+    }
+}
+
 .header__nav{
     display: none;
 }

@@ -1,3 +1,14 @@
+.slider__items{
+    width: 375px;
+    overflow: hidden;
+}
+
+.slider__line{
+    width: 910px;
+    display: flex;
+    gap: 20px;
+}
+
 .slider__buttons{
     display: flex;
     align-items: center;
