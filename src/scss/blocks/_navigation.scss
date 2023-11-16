@@ -1,5 +1,12 @@
 .navigation__btn{
     width: 42px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(240, 241, 244, 0.30);
+    background-image: url(../../img/svg/nav.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media  (min-width: 1050px) {

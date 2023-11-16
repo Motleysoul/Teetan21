@@ -65,6 +65,12 @@ font-weight: 400;
 line-height: 130%;
   }
 
+  @media (min-width: $tablet-width) {
+    .section-slogan{
+      font-size: 32px;
+    }
+  }
+
   .section-desc{
     font-size: 16px;
 font-style: normal;
@@ -101,4 +107,19 @@ text-transform: uppercase;
 
   .find-out-link__svg--white{
     stroke: $white;
+  }
+
+  .decorative-numb{
+    width: 160px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+  }
+
+  @media (min-width: $desktop-width) {
+    .decorative-numb{
+      width: 389px;
+      height: 390px;
+    }
   }
