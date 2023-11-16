@@ -1,11 +1,27 @@
 .advantages{
     padding: 90px 20px 135px;
 }
+
+@media (min-width: $desktop-width) {
+    .advantages{
+        padding: 120px 80px 191px;
+    }
+  }
+
 .advantages__list{
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
+
+@media (min-width: $tablet-width) {
+    .advantages__list{
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+    }
+  }
+
 .advantages__item{
     display: flex;
     flex-direction: column;
