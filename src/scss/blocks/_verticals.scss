@@ -3,6 +3,13 @@
     padding: 137px 20px 100px;
 }
 
+@media (min-width: $desktop-width) {
+    .verticals{
+        display: flex;
+        gap: 40px;
+    }
+  }
+
 .verticals__numb{
     position: absolute;
   top: -60px;
@@ -16,6 +23,12 @@
     gap: 30px;
     margin-bottom: 50px;
 }
+
+@media (min-width: $desktop-width) {
+    .verticals__wrapper{
+        max-width: 510px;
+    }
+  }
 
 .verticals__btn{
     margin-bottom: 100px;

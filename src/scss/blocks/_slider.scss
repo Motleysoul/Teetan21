@@ -3,6 +3,12 @@
     overflow: hidden;
 }
 
+@media (min-width: $desktop-width) {
+    .slider__items{
+        width: 810px;
+    }
+  }
+
 .slider__line{
     width: 910px;
     display: flex;
@@ -19,6 +25,10 @@
     border: none;
 }
 
+.slider__prev-btn svg path{
+    fill: #44A1E7;
+}
+
 .slider__slash{
     font-family: $font-title;
     font-size: 32px;
@@ -30,6 +40,14 @@ line-height: 130%;
 .slider__next-btn{
     background: inherit;
     border: none;
+}
+
+.slider__next-btn svg path{
+    fill: #44A1E7;
+}
+
+.slider__btn--inactive svg path{
+    fill:#CCCCDA;
 }
 
 .slider__items{
@@ -50,6 +68,12 @@ background-color: $dark-grey;
 border-radius: 17px;
 }
 
+@media (min-width: $desktop-width) {
+    .slider__bar{
+        width: 730px;
+    }
+  }
+
 .slider__current{
     position: absolute;
     left: 0;
@@ -59,3 +83,9 @@ border-radius: 17px;
     background-color: $basic-blue;
     border-radius: 17px;
 }
+
+@media (min-width: $desktop-width) {
+    .slider__current{
+        width: 198px;
+    }
+  }
