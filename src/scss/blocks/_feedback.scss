@@ -10,6 +10,15 @@
       right: 20px;
       background-image: url(../../img/svg/06.svg);
 }
+@media (min-width: $desktop-width) {
+    .feedback__numb{
+        top: -100px;
+    }
+  }
+
+  .feedback__wrapper{
+    max-width: 498px;
+  }
 
 .feedback__title{
     margin-bottom: 10px;

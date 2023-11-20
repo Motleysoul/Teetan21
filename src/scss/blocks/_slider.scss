@@ -5,7 +5,13 @@
 
 @media (min-width: $desktop-width) {
     .slider__items{
-        width: 810px;
+        width: 710px;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .slider__items{
+        width: 910px;
     }
   }
 

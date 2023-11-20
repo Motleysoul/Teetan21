@@ -1,6 +1,7 @@
 .logo-slider__list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .logo-slider__item{
@@ -11,3 +12,31 @@
 .logo-slider__item:hover {
     background-color: $dark-grey;
 }
+
+.logo-slider__bar{
+    position: relative;
+    width: 355px;
+height: 5px;
+background-color: $dark-grey;
+border-radius: 17px;
+}
+
+@media (min-width: 1440px){
+    .logo-slider__bar{
+        width: 1280px;
+}}
+
+.logo-slider__current{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 96px;
+    height: 5px;
+    background-color: $basic-blue;
+    border-radius: 17px;
+}
+
+@media (min-width: 1440px){
+    .logo-slider__current{
+        width: 347px;
+}}
