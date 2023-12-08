@@ -1,14 +1,14 @@
 .feedback{
     position: relative;
     padding: 80px 20px 68px;
-    background: url(../../img/feedback.jpg);
+    background: url(../img/feedback.jpg);
 }
 
 .feedback__numb{
     position: absolute;
     top: -60px;
       right: 20px;
-      background-image: url(../../img/svg/06.svg);
+      background-image: url(../img/svg/06.svg);
 }
 @media (min-width: $desktop-width) {
     .feedback__numb{
