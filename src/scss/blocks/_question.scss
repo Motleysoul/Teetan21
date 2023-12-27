@@ -1,0 +1,16 @@
+.question{
+    display: flex;
+    flex-direction: column;
+    max-width: 427px;
+    padding: 50px;
+    background-color: $basic-blue;
+}
+
+.question__text{
+    margin-bottom: 180px;
+    font-family: $font-title;
+    font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}

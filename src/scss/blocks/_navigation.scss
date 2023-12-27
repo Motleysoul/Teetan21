@@ -1,0 +1,31 @@
+.navigation__btn{
+    width: 42px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(240, 241, 244, 0.30);
+    background-image: url(../img/svg/nav.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media  (min-width: 1050px) {
+  .navigation__btn{
+    display: none;
+  }
+}
+
+.navigation{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navigation__item{
+    font-family: $font-accent;
+    font-size: 13px;
+font-weight: 700;
+line-height: 140%;
+letter-spacing: 1.3px;
+text-transform: uppercase;
+}

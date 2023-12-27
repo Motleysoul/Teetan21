@@ -1,36 +1,349 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  class="html" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teetan21</title>
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="body">
   @@include('blocks/header.html')
   <main class="main-content">
-    <section class="promo">
-      <h1 class="tittle visually-hidden">TEENAN21</h1>
-      <p class="section-slogan">
-        We help leaders grow their businesses for a brighter future
-      </p>
-      <p class="section-desc">
-        Customers worldwide rely on our innovative solutions and services to meet their most essential needs and overcome their biggest challenges in various settings.
-      </p>
-      <button class="basic-button">Explore our services</button>
-      <button class="second-button">get in touch</button>
-      <div class="promo__clue">SCROLL DOWN</div>
-    </section>
     <section class="about">
-      <img src="./img/aboutimg.jpg" alt="Conversation">
-      <h2 class="section-title">about us</h2>
+      <div class="decorative-numb about__numb">
+      </div>
+      <img class="about__img" src="./img/aboutimg.jpg" alt="Conversation">
+      <div class="about__wrapper">
+        <h2 class="section-title">about us</h2>
+        <p class="section-slogan">
+          Our sole focus is to help companies navigate complex Indian market
+        </p>
+        <p class="section-desc about__desc">
+        At TEENAN21, We work with Technlogy companies to provide innovative & integrated solutions to enable a successful entry and expansion in India. We bring innovative ideas in Product Development, Technology Transfer, and Consulting to achieve cutting edge and way ahead of the competition.
+        </p>
+        <div class="find-out">
+          <a class="find-out-link" href="#"><span>find out more</span>
+            <svg class="find-out-link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </a></div>
+      </div>
+    </section>
+    <section class="advantages">
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <span class="advantages__numbers">20</span>
+          <span class="advantages__title"><b>Years experience </b>on the market</span>
+          <span class="advantages__desc">Quis eu at condimentum amet sed facilisi viverra vulputate. </span>
+        </li>
+        <li class="advantages__item">
+          <span class="advantages__numbers">100+</span>
+          <span class="advantages__title"><b>Successful</b> projects</span>
+          <span class="advantages__desc">Quis eu at condimentum amet sed facilisi viverra vulputate. </span>
+        </li>
+        <li class="advantages__item">
+          <span class="advantages__numbers">80+</span>
+          <span class="advantages__title"><b>Loyal</b> clients</span>
+          <span class="advantages__desc">Quis eu at condimentum amet sed facilisi viverra vulputate. </span>
+        </li>
+        <li class="advantages__item">
+          <span class="advantages__numbers">$2,87M</span>
+          <span class="advantages__title"><b>Revenue</b> of our clients</span>
+          <span class="advantages__desc">Quis eu at condimentum amet sed facilisi viverra vulputate. </span>
+        </li>
+      </ul>
+    </section>
+    <section class="services">
+      <div class="decorative-numb services__numb">
+      </div>
+      <div class="services__wrapper">
+        <h2 class="section-title services__title">our services</h2>
+        <p class="section-slogan services__slogan">
+          Our experts will provide you with a full stack of services
+        </p>
+        <p class="section-desc services__text">
+          Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.
+        </p>
+      </div>
+      <ul class="services__list">
+        <li class="services__item service-item">
+          <img class="services__img" src="./img/consulting.jpg" alt="Consulting">
+          <div class="service-item__text">
+            <h3 class="services__title">Consulting</h3>
+            <p class="services__desc">Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.
+            </p>
+          </div>
+          <div class="find-out  services__link">
+            <a class="find-out-link" href="#"><span>find out more</span>
+              <svg class="find-out-link__svg--white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a></div>
+        </li>
+        <li class="services__item">
+          <img class="services__img" src="./img/implementation.jpg" alt="Implementation">
+          <h3 class="services__title">Implementation</h3>
+          <p class="services__desc">  Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.
+          </p>
+          <div class="find-out services__link">
+            <a class="find-out-link" href="#"><span>find out more</span>
+              <svg class="find-out-link__svg--white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a></div>
+        </li>
+        <li class="services__item">
+          <img class="services__img" src="./img/trading.jpg" alt="Trading">
+          <h3 class="services__title">Trading</h3>
+          <p class="services__desc">Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.</p>
+          <div class="find-out services__link">
+            <a class="find-out-link" href="#"><span>find out more</span>
+              <svg class="find-out-link__svg--white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a></div>
+        </li>
+        <li class="services__item">
+          <img class="services__img" src="./img/supply.jpg" alt="Supply Chain and Sourcing">
+          <h3 class="services__title">Supply Chain and Sourcing</h3>
+          <p class="services__desc">Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.</p>
+          <div class="find-out services__link">
+            <a class="find-out-link" href="#"><span>find out more</span>
+              <svg class="find-out-link__svg--white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a></div>
+        </li>
+        <li class="services__item">
+          <img class="services__img" src="./img/oil.jpg" alt="Oil platform">
+          <h3 class="services__title">Oil and Gas Pipeline Safety Solutions</h3>
+          <p class="services__desc">Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.</p>
+          <div class="find-out services__link">
+            <a class="find-out-link" href="#"><span>find out more</span>
+              <svg class="find-out-link__svg--white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a></div>
+        </li>
+        <li><div class="question">
+          <p class="question__text">Can we help your product with some of our expert services?</p>
+          <button class="third-button">let’s discuss</button>
+        </div></li>
+      </ul>
+    </section>
+    <section class="strategy">
+      <h2 class="section-title strategy__title">our strategy</h2>
       <p class="section-slogan">
-        Our sole focus is to help companies navigate complex Indian market
+        Through our network within international business and government across key vertical we facilitate hight level contracts for our clients
       </p>
-      <p class="section-desc">
-      At TEENAN21, We work with Technlogy companies to provide innovative & integrated solutions to enable a successful entry and expansion in India. We bring innovative ideas in Product Development, Technology Transfer, and Consulting to achieve cutting edge and way ahead of the competition.      
-      </p>
-      <a class="about__link" href="#">find out more</a>
+    </section>
+    <section class="verticals">
+      <div class="decorative-numb verticals__numb">
+      </div>
+      <div class="verticals__wrapper">
+        <h2 class="section-title">verticals</h2>
+        <p class="section-slogan">
+          Our experts will provide you with a full stack of services
+        </p>
+        <p class="section-desc">
+          TEENAN21 is always up to the challenge. Our team keeps striving to achieve exceptional results, on time and beyond expectations.
+          Every aspect of TEENAN21 operations is streamlined to make great efficiency its trademark, from supply, to detailing all the way through to delivery of smart projects.
+        </p>
+        <button class="basic-button verticals__btn">view more</button>
+      </div>
+      <div class="slider verticals__slider">
+       <div class="slider__buttons">
+          <button class="slider__prev-btn slider__btn--inactive">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M22.3739 10.9596C22.7645 11.3502 22.7645 11.9833 22.3739 12.3739L10.7477 24.0001H41.6668C42.2191 24.0001 42.6668 24.4478 42.6668 25.0001C42.6668 25.5524 42.2191 26.0001 41.6668 26.0001H10.7477L22.3739 37.6263C22.7645 38.0168 22.7645 38.65 22.3739 39.0405C21.9834 39.431 21.3502 39.431 20.9597 39.0405L7.62639 25.7072C7.43885 25.5197 7.3335 25.2653 7.3335 25.0001C7.3335 24.7349 7.43885 24.4805 7.62639 24.293L20.9597 10.9596C21.3502 10.5691 21.9834 10.5691 22.3739 10.9596Z"/>
+              </svg>
+          </button>
+          <span class="slider__slash">/</span>
+          <button class="slider__next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M27.6264 10.9596C28.0169 10.5691 28.6501 10.5691 29.0406 10.9596L42.3739 24.293C42.5615 24.4805 42.6668 24.7349 42.6668 25.0001C42.6668 25.2653 42.5615 25.5197 42.3739 25.7072L29.0406 39.0405C28.6501 39.431 28.0169 39.431 27.6264 39.0405C27.2359 38.65 27.2359 38.0168 27.6264 37.6263L39.2526 26.0001H8.3335C7.78121 26.0001 7.3335 25.5524 7.3335 25.0001C7.3335 24.4478 7.78121 24.0001 8.3335 24.0001H39.2526L27.6264 12.3739C27.2359 11.9833 27.2359 11.3502 27.6264 10.9596Z"/>
+              </svg>
+          </button>
+       </div>
+        <div class="slider__items">
+         <div class="slider__line">
+            <div class="slider__item"><img class="slider__img" src="./img/slider-item1.jpg" alt=""></div>
+            <div class="slider__item"><img class="slider__img" src="./img/slider-item2.jpg" alt=""></div>
+            <div class="slider__item"><img class="slider__img" src="./img/slider-item3.jpg" alt=""></div>
+         </div>
+       </div>
+        <div class="slider__bar">
+          <div class="slider__current"></div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <div class="decorative-numb partners__numb">
+      </div>
+      <div class="partners__text">
+        <h2 class="section-title">our partners</h2>
+        <p class="section-slogan">
+          Our reliable partners who we work with
+        </p>
+        <p class="section-desc">
+          Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.
+        </p>
+      </div>
+      <ul class="partners__list">
+        <li class="partners__item">
+          <img class="partners__logo" src="./img/svg/zyfra.svg" alt="Zyfra logo">
+          <p class="partners__title">Zyfra</p>
+          <p class="partners__desc"> Finnish- Russian Company specializing in Artificial Intelligence website</p>
+          <a class="partners__link" href="#">website
+            <svg class="partners__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M8.45802 7.0808L16.98 7.08068M16.98 7.08068L16.98 15.4815M16.98 7.08068L7.08052 16.9802" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+        <li class="partners__item">
+          <img class="partners__logo" src="./img/svg/norner.svg" alt="Norner logo">
+          <p class="partners__title">Norner</p>
+          <p class="partners__desc">Global market leader of Industrial R&D services in Polymers</p>
+          <a class="partners__link" href="#">website
+            <svg class="partners__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8.45802 7.0808L16.98 7.08068M16.98 7.08068L16.98 15.4815M16.98 7.08068L7.08052 16.9802" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </a>
+        </li>
+        <li class="partners__item">
+          <img class="partners__logo" src="./img/svg/evnat.svg" alt="">
+          <p class="partners__title">EVNAT</p>
+          <p class="partners__desc">Perfect Solution for Mixing Media In VSTS</p>
+          <a class="partners__link" href="#">website
+            <svg class="partners__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8.45802 7.0808L16.98 7.08068M16.98 7.08068L16.98 15.4815M16.98 7.08068L7.08052 16.9802" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </a>
+        </li>
+        <li class="partners__item">
+          <img class="partners__logo" src="./img/svg/zyfra2.svg" alt="">
+          <p class="partners__title">Zyfra</p>
+          <p class="partners__desc">Finnish- Russian Company specializing in Artificial Intelligence</p>
+          <a class="partners__link" href="#">website
+            <svg class="partners__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8.45802 7.0808L16.98 7.08068M16.98 7.08068L16.98 15.4815M16.98 7.08068L7.08052 16.9802" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="clients">
+      <div class="decorative-numb clients__numb">
+      </div>
+      <div class="clients__text">
+        <div class="clients__text-wrapper">
+          <h2 class="section-title">our clients</h2>
+          <p class="section-slogan">
+            Companies who trust us
+          </p>
+        </div>
+        <p class="section-desc clients__desc">
+          Quis eu at condimentum amet sed facilisi viverra. Sit fames sed vulputate auctor tincidunt. Et sit blandit eu nam scelerisque lorem lectus nibh dis.
+        </p>
+      </div>
+      <div class="logo-slider">
+        <div class="slider__buttons">
+          <button class="slider__prev-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M22.3739 10.9596C22.7645 11.3502 22.7645 11.9833 22.3739 12.3739L10.7477 24.0001H41.6668C42.2191 24.0001 42.6668 24.4478 42.6668 25.0001C42.6668 25.5524 42.2191 26.0001 41.6668 26.0001H10.7477L22.3739 37.6263C22.7645 38.0168 22.7645 38.65 22.3739 39.0405C21.9834 39.431 21.3502 39.431 20.9597 39.0405L7.62639 25.7072C7.43885 25.5197 7.3335 25.2653 7.3335 25.0001C7.3335 24.7349 7.43885 24.4805 7.62639 24.293L20.9597 10.9596C21.3502 10.5691 21.9834 10.5691 22.3739 10.9596Z" fill="#CCCCDA"/>
+              </svg>
+          </button>
+          <span class="slider__slash">/</span>
+          <button class="slider__next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M27.6264 10.9596C28.0169 10.5691 28.6501 10.5691 29.0406 10.9596L42.3739 24.293C42.5615 24.4805 42.6668 24.7349 42.6668 25.0001C42.6668 25.2653 42.5615 25.5197 42.3739 25.7072L29.0406 39.0405C28.6501 39.431 28.0169 39.431 27.6264 39.0405C27.2359 38.65 27.2359 38.0168 27.6264 37.6263L39.2526 26.0001H8.3335C7.78121 26.0001 7.3335 25.5524 7.3335 25.0001C7.3335 24.4478 7.78121 24.0001 8.3335 24.0001H39.2526L27.6264 12.3739C27.2359 11.9833 27.2359 11.3502 27.6264 10.9596Z" fill="#44A1E7"/>
+              </svg>
+          </button>
+       </div>
+        <div class="logo-slider__list">
+          <div class="logo-slider__item">
+            <img class="logo-slider__img" src="./img/svg/logo1.svg" alt="">
+          </div>
+          <div class="logo-slider__item">
+            <img class="logo-slider__img" src="./img/svg/logo1.svg" alt="">
+          </div>
+          <div class="logo-slider__item">
+            <img class="logo-slider__img" src="./img/svg/logo2.svg" alt="">
+          </div>
+          <div class="logo-slider__item">
+            <img class="logo-slider__img" src="./img/svg/logo3.svg" alt="">
+          </div>
+          <div class="logo-slider__item">
+            <img class="logo-slider__img" src="./img/svg/logo4.svg" alt="">
+          </div>
+          <div class="logo-slider__item">
+            <img class="logo-slider__img" src="./img/svg/logo5.svg" alt="">
+          </div>
+        </div>
+        <div class="logo-slider__bar">
+          <div class="logo-slider__current"></div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="blog__wrapper">
+        <div class="blog__text-wrapper">
+          <h2 class="section-title">our blog</h2>
+          <p class="section-slogan">
+            We post often to our blog to keep you updated with the latest insights and trends
+          </p>
+        </div>
+        <button class="basic-button">See all</button>
+      </div>
+      <ul class="blog__list">
+        <li class="blog__post post">
+          <img class="post__img" src="./img/postimage1.jpg" alt="">
+          <p class="post__title">Spirit at Bridge Promenade</p>
+          <p class="post__text">
+            Nec harum bonorum menandri ei. Idque noluisse te vix, mel sonet nihil te, ut solum option consulatu cum. Ex clita tacimates inimicus usu, facer alter...</p>
+            <div class="post__link">
+              <div class="find-out">
+                <a class="find-out-link" href="#"><span>find out more</span>
+                  <svg class="find-out-link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a></div>
+            <span class="post__date">Jan 2, 2023</span>
+            </div>
+        </li>
+        <li class="blog__post post">
+          <img class="post__img" src="./img/postimg2.jpg" alt="">
+          <p class="post__title">BG Presents its Milestone</p>
+          <p class="post__text">Nec harum bonorum menandri ei. Idque noluisse te vix, mel sonet nihil te, ut solum option consulatu cum. Ex clita tacimates inimicus usu, facer alter...</p>
+         <div class="post__link">
+            <div class="find-out">
+              <a class="find-out-link" href="#"><span>find out more</span>
+                <svg class="find-out-link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </a></div>
+            <span class="post__date">Jan 2, 2023</span>
+         </div>
+        </li>
+        <li class="blog__post post">
+          <img class="post__img" src="./img/postimg3.jpg" alt="">
+          <p class="post__title">BG Launches Terraces</p>
+          <p class="post__text">Nec harum bonorum menandri ei. Idque noluisse te vix, mel sonet nihil te, ut solum option consulatu cum. Ex clita tacimates inimicus usu, facer alter...</p>
+          <div class="post__link">
+            <div class="find-out">
+              <a class="find-out-link" href="#"><span>find out more</span>
+                <svg class="find-out-link__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path d="M13.1667 6L19 12M19 12L13.1667 18M19 12L5 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </a></div>
+            <span class="post__date">Jan 2, 2023</span>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
   @@include('blocks/footer.html')

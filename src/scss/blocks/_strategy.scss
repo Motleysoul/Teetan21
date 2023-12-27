@@ -1,0 +1,22 @@
+.strategy{
+    display: flex;
+    flex-direction: column;
+    padding: 156px 20px;
+    color: $white;
+    background-color: $basic-blue;
+    background: url('../img/strategy-back.jpg');
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+    .strategy{
+    background: url('../img/strategy-back-desk.jpg');
+    }
+  }
+
+.strategy__title{
+    color: $white;
+    margin-bottom: 30px;
+}

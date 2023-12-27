@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Larsseit-Medium.woff2);
+  };
+  @font-face {
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/Larsseit-Light.woff2);
+  };
+  @font-face {
+    font-family: 'Larsseit';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/Larsseit-Bold.woff2);
+  }
+
+.body, .html{
+height: 100%;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-basic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+  .section-title{
+    font-family: $font-accent;
+    font-size: 13px;
+    color: $basic-blue;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+  }
+
+  .section-slogan{
+    font-family: $font-title;
+    font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+  }
+
+  @media (min-width: $tablet-width) {
+    .section-slogan{
+      font-size: 32px;
+    }
+  }
+
+  .section-desc{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%;
+color: $brown-grey;
+  }
+
+  .find-out-link{
+    display: flex;
+    gap: 10px;
+    font-family: $font-accent;
+    font-size: 13px;
+font-style: normal;
+font-weight: 700;
+color: $dark-blue;
+letter-spacing: 1.3px;
+text-transform: uppercase;
+  }
+
+  .find-out-link span{
+    display: block;
+  }
+  .find-out-link__svg{
+    stroke: $dark-blue;
+    display: block;
+  }
+  .find-out-link:hover{
+    color: $basic-blue;
+  }
+  .find-out-link:hover svg{
+    stroke: $basic-blue;
+  }
+
+  .find-out-link__svg--white{
+    stroke: $white;
+  }
+
+  .decorative-numb{
+    width: 160px;
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+  }
+
+  @media (min-width: $desktop-width) {
+    .decorative-numb{
+      width: 389px;
+    }
+  }

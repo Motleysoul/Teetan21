@@ -1,0 +1,86 @@
+.services{
+    position: relative;
+    background-color: $dark-blue;
+    color: $white;
+}
+
+.services__numb{
+  position: absolute;
+  top: -50px;
+    left: 20px;
+    background-image: url(../img/svg/02.svg);
+}
+
+@media (min-width: $desktop-width) {
+    .services__numb{
+     top: -100px;
+    }
+  }
+
+.services__wrapper{
+    max-width: 630px;
+    display: flex;
+    flex-direction: column;
+    padding: 126px 20px 0;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+@media (min-width: $desktop-width) {
+    .services__wrapper{
+        padding: 105px 20px 0;
+    }
+  }
+
+.services__text{
+    color: $dark-grey;
+}
+
+.services__list{
+    list-style: none;
+}
+
+@media (min-width: $tablet-width) {
+    .services__list{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 79px;
+       justify-content: center;
+    }
+  }
+
+
+.services__item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 427px;
+    padding: 30px 30px 45px;
+}
+
+.services__item:hover{
+    background-color: $white;
+    color: $dark-blue;
+}
+
+.services__img{
+    width: 100%;
+}
+.service-item__text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.services__link span{
+    color: $white;
+}
+
+.services__link:hover span{
+    color: $basic-blue;
+}
+
+.services__item:hover .services__link span{
+    color: $dark-blue;
+}
